@@ -11,6 +11,6 @@ maximum = int(input('Введите верхнюю границу: '))
 
 print('В заданном диапазоне элементы находятся под следующими индексами:')
 for i in range(0, len(my_list)):
-    if my_list[i]> minimum and my_list[i]<maximum:
+    if my_list[i]>= minimum and my_list[i]<=maximum:
         print(i, end=' ')
 
